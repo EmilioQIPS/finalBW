@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Epicode Benchmark</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/epicode_logo.png" alt="epicode logo" class="logo">
+    </header>
+
+    <main>
+        <div class="timer">
+            <div class="timer-circle">
+              <span class="label">SECONDS</span>
+              <span class="seconds">30</span>
+              <span class="remaining">REMAINING</span>
+            </div>
+        </div>
+
+        <h1 class="domanda">What does CPU stand for?</h1>
+
+        <div class="risposte">
+            <button class="risposta" onclick="centralProcessingUnit()">Central Processing Unit</button>
+            <button class="risposta" onclick="centralProcessUnit()">Central Process Unit</button>
+        </div>
+        <div class="risposte">
+            <button class="risposta" onclick="computerPersonalUnit()">Computer Personal Unit</button>
+            <button class="risposta" onclick="centralProcessorUnit()">Central Processor Unit</button>
+        </div>
+    </main>
+
+    <footer> Q U E S T I O N &ensp; 1<span> / 10</span></footer>
+</body>
+</html>
