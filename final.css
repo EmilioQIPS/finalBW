@@ -2,8 +2,9 @@
 body {
     background-image: url(./assets/bg.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     color: white;
+    font-family: "Outfit", sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -51,18 +52,15 @@ main {
     align-items: center;
     justify-content: center;
     color: white;
-    font-weight: bold;
-    text-align: center;
+    font-weight: 350;
 }
 
 .seconds {
-    font-size: 3rem;
-    font-weight: 100;
+    font-size: 3em;
 }
 
 .label, .remaining {
-    font-size: 0.5rem;
-    font-weight: 100;
+    font-size: 0.5em;
 }
 
 /* ######## D O M A N D A ######## */
@@ -71,7 +69,6 @@ h1 {
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-size: 3.6em;
-    font-family: "Outfit", sans-serif;
     font-weight: 400;
     color: white;
 }
@@ -87,21 +84,20 @@ h1 {
 
 .risposta {
     background-color: rgba(255, 255, 255, 0.09);
-    border: 2px solid transparent;
     padding: 30px 120px;
     margin: 10px 20px;
     border-radius: 50px;
     color: white;
-    font-size: 1.1rem;
-    font-family: "Inter", sans-serif;
+    font-size: 1.1em;
     font-weight: 600;
     transition: background-color 0.5s;
+    border: 3px solid transparent;
+    border-image: linear-gradient(178deg, white, rgba(255, 255, 255, 0)) 1;
 }
 
 .risposta:hover {
     background-color: #9C007C;
 }
-
 
 /* ######## F O O T E R ######## */
 
@@ -110,7 +106,6 @@ footer {
     bottom: 4em;
     text-align: center;
     font-size: 1.2em;
-    font-family: "Outfit", sans-serif;
 }
 
 footer span {
